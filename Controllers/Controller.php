@@ -1,7 +1,10 @@
 <?php
 
 
-    class controller{
+    class controller extends Database {
+
+
+
 
             public static function CreateView($viewName)
             {
